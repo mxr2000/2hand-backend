@@ -1,0 +1,69 @@
+GET {{host}}/item
+
+###
+
+GET {{host}}/item/latest/0
+
+
+###
+
+GET {{host}}/item/18
+
+###
+
+GET {{host}}/item/user/a@gmail.com
+
+###
+
+GET {{host}}/item/other/0
+
+###
+
+POST {{host}}/item
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Batch item",
+  "description": "desc",
+  "category": "food",
+  "price": 10.0,
+  "status": "active",
+  "user": "a@gmail.com",
+  "imageLinks": [],
+  "id": 0,
+  "batchId": 1
+}
+
+###
+PUT {{host}}/item
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Batch item",
+  "description": "desc",
+  "category": "food",
+  "price": 10.0,
+  "status": "active",
+  "user": "a@gmail.com",
+  "imageLinks": [],
+  "id": 15
+}
+
+###
+POST {{host}}/image
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "itemId": 1,
+  "link": "aaa",
+  "id": 0
+}
+
+###
+DELETE {{host}}/image/1
+
+
+

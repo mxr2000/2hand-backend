@@ -1,0 +1,25 @@
+@startuml
+(*) --> "Look up email address
+in the user table"
+if "Entry found" then
+    -->[true] "Email already exists" #Red
+    -right-> (*)
+else
+    -->[false] "Fetch Code from redis"
+    if "Code exists" then
+        -right->[true] "check if codes match"
+        if "Codes match" then
+            -->[true] "Save user info into database"
+            --> "Delete code from Redis"
+            --> "Success" #Green
+            --> (*)
+        else
+            -right->[false] "Wrong code" #Red
+            --> (*)
+        endif
+    else
+        -->[false] "Have not asked for code" #Red
+        --> (*)
+    endif
+endif
+@enduml

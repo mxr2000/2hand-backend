@@ -1,0 +1,60 @@
+@startuml
+
+actor Client as client
+participant Server as server
+database Redis as redis
+database DB as db
+participant "Mail Server" as mail
+
+activate mail
+
+group Request Code
+client -> server: request code
+activate server
+
+server -> db: check if the user exists
+
+db --> server: does not exist
+
+server -> redis: save code
+activate redis
+
+redis --> server: done
+
+
+server -> mail: request to send email
+
+mail --> server: email sent
+
+server --> client: code is sent
+
+end
+deactivate server
+
+mail -> client: receive email
+
+group Sign Up
+
+client -> server: sign up
+
+    server -> redis: find code
+
+    redis --> server: done
+
+    server -> db: save data
+
+    activate db
+
+    db --> server: done
+
+    server -> redis: erase code
+    redis --> server: done
+    deactivate redis
+    server --> client: finish registration
+
+end
+
+
+
+
+@enduml

@@ -1,0 +1,54 @@
+POST {{host}}/user/signUp
+Content-Type: application/json
+
+{
+  "email": "a@gmail.com",
+  "username": "Dick",
+  "passwordHash": "1234567890"
+}
+
+###
+
+POST {{host}}/user/logIn
+Content-Type: application/json
+
+{
+  "email": "a@gmail.com",
+  "passwordHash": "abcde"
+}
+
+###
+
+GET {{host}}/item
+
+###
+
+GET {{host}}/item/latest/0
+
+###
+
+
+GET {{host}}/item/15
+
+###
+
+GET {{host}}/item/user/a@gamil.com@
+
+###
+
+POST {{host}}/item
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "user": "a@gmail.com",
+  "title": "Another title",
+  "description": "hahaha",
+  "price": 2.5,
+  "status": "active"
+}
+
+###
+
+GET {{host}}/auth
+Authorization: Bearer {{token}}

@@ -1,0 +1,46 @@
+GET {{host}}/batch/latest/1
+
+
+###
+
+GET {{host}}/batch/1
+
+###
+
+POST {{host}}/batch
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Demo Batch",
+  "description": "desc of the batch",
+  "status": "draft",
+  "email": "a@gmail.com",
+  "id": 0
+}
+
+###
+
+PUT {{host}}/batch
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Demo Batch",
+  "description": "renewed desc",
+  "status": "active",
+  "email": "a@gmail.com",
+  "id": 1
+}
+
+###
+
+PUT {{host}}/deactivate/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###
+DELETE {{host}}/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+

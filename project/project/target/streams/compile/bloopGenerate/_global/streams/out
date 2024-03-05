@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[http4s-learn-build-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[http4s-learn-build-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'http4s-learn-build-build' to '/Users/mxr/Documents/src/scala/http4s-learn/project/project/.bloop/http4s-learn-build-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/http4s-learn-build-build.json[0m

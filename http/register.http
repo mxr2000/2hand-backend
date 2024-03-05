@@ -1,0 +1,18 @@
+POST {{host}}/user/auth/qsn7pu@virginia.edu
+Content-Type: application/json
+
+###
+
+POST {{host}}/user/signUp
+Content-Type: application/json
+
+{
+  "user": {
+    "email": "gnh4ku@virginia.edu",
+    "firstName": "Dick",
+    "lastName": "Paul",
+    "passwordHash": "1234567890",
+    "imageLink": ""
+  },
+  "authCode": "249911"
+}

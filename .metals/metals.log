@@ -1,0 +1,1169 @@
+2023.12.17 21:54:38 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2023.12.17 21:54:39 WARN  Build server is not auto-connectable.
+2023.12.17 21:54:39 WARN  no build target for: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 21:54:44 INFO  no build target found for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.17 21:54:45 INFO  running '/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s_/cbf5z2097m9cr1c2rrs_vw1h0000gn/T/metals12027804872032743727/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.17 21:54:45 WARN  no build target for: /Users/mxr/Documents/src/scala/http4s-learn/project/metals.sbt
+2023.12.17 21:54:45 WARN  no build target for: /Users/mxr/Documents/src/scala/http4s-learn/project/project/metals.sbt
+2023.12.17 21:54:45 INFO  skipping build import with status 'Started'
+2023.12.17 21:54:45 INFO  time: code lens generation in 6.36s
+2023.12.17 21:54:46 INFO  [info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 17.0.6)
+2023.12.17 21:54:46 INFO  [info] loading global plugins from /Users/mxr/.sbt/1.0/plugins
+2023.12.17 21:54:48 INFO  [info] loading settings for project http4s-learn-build-build from metals.sbt ...
+2023.12.17 21:54:48 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project/project
+2023.12.17 21:54:48 INFO  [info] loading settings for project http4s-learn-build from metals.sbt ...
+2023.12.17 21:54:49 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project
+2023.12.17 21:54:49 INFO  [success] Generated .bloop/http4s-learn-build.json
+2023.12.17 21:54:49 INFO  [success] Total time: 1 s, completed Dec 17, 2023, 9:54:50 PM
+2023.12.17 21:54:51 INFO  [info] loading settings for project root from build.sbt ...
+2023.12.17 21:54:51 INFO  [info] set current project to http4s-learn (in build file:/Users/mxr/Documents/src/scala/http4s-learn/)
+2023.12.17 21:54:51 INFO  [success] Generated .bloop/root.json
+2023.12.17 21:54:51 INFO  [success] Generated .bloop/root-test.json
+2023.12.17 21:54:51 INFO  [success] Total time: 0 s, completed Dec 17, 2023, 9:54:51 PM
+2023.12.17 21:54:51 INFO  time: ran 'sbt bloopInstall' in 6.37s
+2023.12.17 21:54:51 INFO  Attempting to connect to the build server...
+2023.12.17 21:54:51 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+2023.12.17 21:55:03 WARN  no build target for: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 21:55:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.17 21:55:06 INFO  Attempting to connect to the build server...
+2023.12.17 21:55:06 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.12.17 21:55:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.17 21:55:24 INFO  time: Connected to build server in 32s
+2023.12.17 21:55:24 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.17 21:55:43 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- src/main/scala
+2023.12.17 21:55:46 INFO  time: indexed workspace in 22s
+2023.12.17 21:55:46 INFO  compiling root (2 scala sources)
+2023.12.17 21:55:49 INFO  time: compiled root in 3.19s
+2023.12.17 21:57:21 ERROR Failed to tokenize input for semantic tokens for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string interpolation
+    case GET -> Root / "tweets" / IntVar(tweetId) => Ok(s"id = $")
+                                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Dec 17, 2023 9:57:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 17, 2023 9:57:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 17, 2023 9:57:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.17 21:57:57 INFO  compiling root (1 scala source)
+Dec 17, 2023 9:57:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.17 21:57:58 INFO  time: compiled root in 1.43s
+2023.12.17 21:58:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.12.17 21:58:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.12.17 21:58:01 INFO  Starting debug proxy for [Main]
+2023.12.17 21:58:02 INFO  Loaded expression compiler in 656 milliseconds
+2023.12.17 21:58:06 INFO  /Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scala-debug-step-filter_3/3.1.5/scala-debug-step-filter_3-3.1.5.jar
+2023.12.17 21:58:06 INFO  /Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar
+2023.12.17 21:58:06 INFO  /Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar
+2023.12.17 21:58:06 INFO  /Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/tasty-query_3/0.9.3/tasty-query_3-0.9.3.jar
+2023.12.17 21:58:06 INFO  /Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
+2023.12.17 21:58:06 INFO  Loaded step filter in 4 seconds
+2023.12.17 21:58:07 INFO  Loaded all sources and classes in 1 second
+2023.12.17 21:58:07 INFO  Trying to attach to remote debuggee VM localhost:64897 .
+2023.12.17 21:58:07 INFO  Attaching to debuggee VM succeeded.
+2023.12.17 22:00:09 INFO  compiling root (1 scala source)
+2023.12.17 22:00:11 INFO  time: compiled root in 1.47s
+2023.12.17 22:01:15 INFO  compiling root (1 scala source)
+2023.12.17 22:01:16 INFO  time: compiled root in 1.18s
+2023.12.17 22:01:21 INFO  compiling root (1 scala source)
+2023.12.17 22:01:22 INFO  time: compiled root in 1.17s
+2023.12.17 22:01:52 INFO  compiling root (1 scala source)
+2023.12.17 22:01:52 INFO  time: compiled root in 0.89s
+2023.12.17 22:02:20 WARN  Using indexes to guess the definition of flatMap
+Dec 17, 2023 10:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 692
+2023.12.17 22:02:28 INFO  compiling root (1 scala source)
+2023.12.17 22:02:28 INFO  time: compiled root in 0.33s
+2023.12.17 22:02:39 INFO  compiling root (1 scala source)
+2023.12.17 22:02:39 INFO  time: compiled root in 0.94s
+2023.12.17 22:02:47 INFO  time: code lens generation in 1.32s
+Dec 17, 2023 10:03:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 752
+2023.12.17 22:03:10 INFO  compiling root (1 scala source)
+2023.12.17 22:03:10 INFO  time: compiled root in 0.29s
+2023.12.17 22:03:17 INFO  compiling root (1 scala source)
+2023.12.17 22:03:17 INFO  time: compiled root in 0.25s
+2023.12.17 22:03:23 INFO  compiling root (1 scala source)
+2023.12.17 22:03:23 INFO  time: compiled root in 0.25s
+2023.12.17 22:03:42 INFO  compiling root (1 scala source)
+2023.12.17 22:03:42 INFO  time: compiled root in 0.92s
+2023.12.17 22:03:57 INFO  compiling root (1 scala source)
+2023.12.17 22:03:57 INFO  time: compiled root in 0.87s
+2023.12.17 22:04:14 INFO  Canceling debug proxy for [Main]
+2023.12.17 22:04:14 INFO  compiling root (1 scala source)
+2023.12.17 22:04:15 INFO  time: compiled root in 1.05s
+2023.12.17 22:04:15 INFO  {
+  "jsonrpc": "2.0",
+  "id": "72",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+2023.12.17 22:04:37 INFO  compiling root (1 scala source)
+2023.12.17 22:04:37 INFO  time: compiled root in 0.77s
+2023.12.17 22:05:09 INFO  compiling root (1 scala source)
+2023.12.17 22:05:09 INFO  time: compiled root in 0.83s
+2023.12.17 22:05:58 INFO  compiling root (1 scala source)
+2023.12.17 22:05:58 INFO  time: compiled root in 0.73s
+2023.12.17 22:06:00 WARN  Using indexes to guess the definition of Tweet
+Dec 17, 2023 10:06:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1042
+2023.12.17 22:06:37 INFO  compiling root (1 scala source)
+2023.12.17 22:06:37 INFO  time: compiled root in 0.74s
+2023.12.17 22:07:01 INFO  compiling root (1 scala source)
+2023.12.17 22:07:01 INFO  time: compiled root in 0.86s
+2023.12.17 22:07:48 INFO  compiling root (1 scala source)
+2023.12.17 22:07:50 INFO  time: compiled root in 2.11s
+2023.12.17 22:08:05 INFO  compiling root (1 scala source)
+2023.12.17 22:08:05 INFO  time: compiled root in 0.77s
+2023.12.17 22:08:43 INFO  compiling root (1 scala source)
+2023.12.17 22:08:44 INFO  time: compiled root in 1s
+2023.12.17 22:08:55 INFO  compiling root (1 scala source)
+2023.12.17 22:08:55 INFO  time: compiled root in 0.76s
+2023.12.17 22:08:57 INFO  compiling root (1 scala source)
+2023.12.17 22:08:57 INFO  time: compiled root in 0.83s
+2023.12.17 22:09:15 INFO  compiling root (1 scala source)
+2023.12.17 22:09:15 INFO  time: compiled root in 0.94s
+2023.12.17 22:12:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.12.17 22:12:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.12.17 22:12:25 INFO  Starting debug proxy for [Main]
+2023.12.17 22:12:25 INFO  Loaded expression compiler in 1 millisecond
+2023.12.17 22:12:25 INFO  Loaded step filter in 0 milliseconds
+2023.12.17 22:12:26 INFO  Loaded all sources and classes in 1 second
+2023.12.17 22:12:26 INFO  Trying to attach to remote debuggee VM localhost:52409 .
+2023.12.17 22:12:26 INFO  Attaching to debuggee VM succeeded.
+2023.12.17 22:12:53 INFO  compiling root (1 scala source)
+2023.12.17 22:12:53 INFO  time: compiled root in 0.36s
+2023.12.17 22:12:53 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 22:12:56 INFO  Canceling debug proxy for [Main]
+2023.12.17 22:12:56 INFO  compiling root (1 scala source)
+2023.12.17 22:12:56 INFO  time: compiled root in 0.51s
+2023.12.17 22:12:56 INFO  {
+  "jsonrpc": "2.0",
+  "id": "130",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+2023.12.17 22:13:11 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 22:13:12 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+Dec 17, 2023 10:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1756
+2023.12.17 22:13:13 INFO  compiling root (1 scala source)
+2023.12.17 22:13:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 22:13:13 INFO  time: compiled root in 0.66s
+2023.12.17 22:13:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.12.17 22:13:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.12.17 22:13:17 INFO  Starting debug proxy for [Main]
+2023.12.17 22:13:17 INFO  Loaded expression compiler in 2 milliseconds
+2023.12.17 22:13:17 INFO  Loaded step filter in 0 milliseconds
+2023.12.17 22:13:18 INFO  Loaded all sources and classes in 1 second
+2023.12.17 22:13:18 INFO  Trying to attach to remote debuggee VM localhost:52647 .
+2023.12.17 22:13:18 INFO  Attaching to debuggee VM succeeded.
+2023.12.17 22:21:40 INFO  compiling root (1 scala source)
+2023.12.17 22:21:40 INFO  time: compiled root in 0.15s
+2023.12.17 22:23:45 INFO  compiling root (1 scala source)
+2023.12.17 22:23:45 INFO  time: compiled root in 0.14s
+2023.12.17 22:26:37 INFO  compiling root (1 scala source)
+2023.12.17 22:26:37 INFO  time: compiled root in 0.15s
+Dec 17, 2023 10:28:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2261
+2023.12.17 22:28:27 INFO  compiling root (1 scala source)
+2023.12.17 22:28:27 INFO  time: compiled root in 0.13s
+Dec 17, 2023 10:28:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2023-12-17/r_compiler-error_(root)_22-28-39-563.md
+2023.12.17 22:29:08 INFO  compiling root (1 scala source)
+2023.12.17 22:29:08 INFO  time: compiled root in 0.15s
+Dec 17, 2023 10:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2567
+2023.12.17 22:29:29 INFO  compiling root (1 scala source)
+2023.12.17 22:29:29 INFO  time: compiled root in 0.15s
+2023.12.17 22:30:20 INFO  compiling root (1 scala source)
+2023.12.17 22:30:20 INFO  time: compiled root in 0.39s
+2023.12.17 22:30:21 INFO  compiling root (1 scala source)
+2023.12.17 22:30:21 INFO  time: compiled root in 0.28s
+2023.12.17 22:31:32 INFO  compiling root (1 scala source)
+2023.12.17 22:31:32 INFO  time: compiled root in 0.36s
+2023.12.17 22:31:55 INFO  compiling root (1 scala source)
+2023.12.17 22:31:55 INFO  time: compiled root in 0.44s
+2023.12.17 22:34:18 INFO  compiling root (1 scala source)
+2023.12.17 22:34:18 INFO  time: compiled root in 0.28s
+2023.12.17 22:34:21 INFO  Canceling debug proxy for [Main]
+2023.12.17 22:34:21 INFO  compiling root (1 scala source)
+2023.12.17 22:34:21 INFO  time: compiled root in 0.29s
+2023.12.17 22:34:21 INFO  {
+  "jsonrpc": "2.0",
+  "id": "202",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+2023.12.17 22:35:21 INFO  compiling root (1 scala source)
+2023.12.17 22:35:21 INFO  time: compiled root in 0.28s
+2023.12.17 22:35:41 INFO  compiling root (1 scala source)
+2023.12.17 22:35:41 INFO  time: compiled root in 0.4s
+2023.12.17 22:36:07 INFO  compiling root (1 scala source)
+2023.12.17 22:36:07 INFO  time: compiled root in 0.27s
+2023.12.17 22:36:24 INFO  compiling root (1 scala source)
+2023.12.17 22:36:24 INFO  time: compiled root in 0.23s
+2023.12.17 22:36:41 INFO  compiling root (1 scala source)
+2023.12.17 22:36:41 INFO  time: compiled root in 0.28s
+2023.12.17 22:37:28 INFO  compiling root (1 scala source)
+2023.12.17 22:37:28 INFO  time: compiled root in 0.29s
+2023.12.17 22:40:52 INFO  compiling root (1 scala source)
+2023.12.17 22:40:52 INFO  time: compiled root in 0.83s
+2023.12.17 23:03:12 INFO  compiling root (1 scala source)
+2023.12.17 23:03:12 INFO  time: compiled root in 0.12s
+2023.12.17 23:03:28 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/Connection.scala
+2023.12.17 23:03:35 INFO  compiling root (1 scala source)
+2023.12.17 23:03:35 INFO  time: compiled root in 0.19s
+2023.12.17 23:03:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/Connection.scala
+2023.12.17 23:03:36 INFO  compiling root (1 scala source)
+2023.12.17 23:03:36 INFO  time: compiled root in 0.15s
+2023.12.17 23:03:41 INFO  compiling root (1 scala source)
+2023.12.17 23:03:41 INFO  time: compiled root in 0.13s
+Dec 17, 2023 11:04:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3951
+2023.12.17 23:05:42 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:34: error: [dialect scala3] ) expected but . found
+      Connection.db.run(UserTable.userTable.filter(_.email == email).result.headOption)
+                                                    ^
+2023.12.17 23:05:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:42 INFO  compiling root (1 scala source)
+2023.12.17 23:05:42 INFO  time: compiled root in 0.3s
+2023.12.17 23:05:43 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:49 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:52 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:53 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:57 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:58 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:05:59 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:35: error: [dialect scala3] ) expected but . found
+      Connection.db.run(UserTable.userTable.filter(_.email == email).result.headOption)
+                                                    ^
+2023.12.17 23:05:59 INFO  compiling root (1 scala source)
+2023.12.17 23:05:59 INFO  time: compiled root in 0.39s
+2023.12.17 23:05:59 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:03 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:10 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:10 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:11 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:13 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:35: error: [dialect scala3] ) expected but . found
+      Connection.db.run(UserTable.userTable.filter(_.email === email).result.headOption)
+                                                    ^
+2023.12.17 23:06:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:13 INFO  compiling root (1 scala source)
+2023.12.17 23:06:13 INFO  time: compiled root in 0.3s
+2023.12.17 23:06:14 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:14 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:14 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:16 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:25 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:31 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:32 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:32 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:34 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:36: error: [dialect scala3] ) expected but . found
+      Connection.db.run(UserTable.userTable.filter(_.email === email).result.headOption)
+                                                    ^
+2023.12.17 23:06:34 INFO  compiling root (1 scala source)
+2023.12.17 23:06:34 INFO  time: compiled root in 0.41s
+2023.12.17 23:06:35 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:06:48 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:03 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+Dec 17, 2023 11:07:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4220
+2023.12.17 23:07:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:13 ERROR Failed to tokenize input for semantic tokens for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: malformed xml literal, expected:
+Expected ([\t\n\r ] | "/>" | ">"):36:32, found "(UserTable"
+      result <Connection.db.run(UserTable.userTable.filter(_.email === email).result.headOption)
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:937)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:295)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:303)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.12.17 23:07:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:13 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:38: error: [dialect scala3] illegal start of simple expression
+    case req @ POST -> Root / "tweets" =>
+    ^
+2023.12.17 23:07:13 INFO  compiling root (1 scala source)
+2023.12.17 23:07:14 INFO  time: compiled root in 1.04s
+2023.12.17 23:07:15 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:16 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:37 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:37 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:37 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:36: error: [dialect scala3] <- expected but = found
+      a =  Connection.db.run(UserTable.userTable.filter(_.email === email).result.headOption)
+        ^
+2023.12.17 23:07:37 INFO  compiling root (1 scala source)
+2023.12.17 23:07:37 INFO  time: compiled root in 0.33s
+2023.12.17 23:07:38 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:38 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:46 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:36: error: [dialect scala3] <- expected but = found
+      a = Connection.db.run(UserTable.userTable.filter(_.email === email).result.headOption)
+        ^
+2023.12.17 23:07:46 INFO  compiling root (1 scala source)
+2023.12.17 23:07:46 INFO  time: compiled root in 0.28s
+2023.12.17 23:07:47 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:47 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:49 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:50 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:51 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:51 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:55 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:07:59 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:08:03 INFO  compiling root (1 scala source)
+2023.12.17 23:08:03 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:08:03 INFO  time: compiled root in 0.72s
+2023.12.17 23:08:15 INFO  compiling root (1 scala source)
+2023.12.17 23:08:15 INFO  time: compiled root in 0.58s
+2023.12.17 23:08:42 INFO  compiling root (1 scala source)
+2023.12.17 23:08:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:08:42 INFO  time: compiled root in 0.84s
+2023.12.17 23:10:17 INFO  compiling root (1 scala source)
+2023.12.17 23:10:17 INFO  time: compiled root in 0.93s
+2023.12.17 23:10:31 INFO  compiling root (1 scala source)
+2023.12.17 23:10:32 INFO  time: compiled root in 1.01s
+2023.12.17 23:11:22 INFO  compiling root (1 scala source)
+2023.12.17 23:11:22 INFO  time: compiled root in 0.85s
+2023.12.17 23:12:16 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:44: error: [dialect scala3] <- expected but } found
+    }
+    ^
+2023.12.17 23:12:17 INFO  compiling root (1 scala source)
+2023.12.17 23:12:17 INFO  time: compiled root in 0.99s
+2023.12.17 23:12:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:21 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:22 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:23 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:24 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:25 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:30 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:31 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:31 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:35 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:35 INFO  compiling root (1 scala source)
+2023.12.17 23:12:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:35 INFO  time: compiled root in 0.97s
+2023.12.17 23:12:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:12:53 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:20 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:25 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:26 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:27 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:28 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:35 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:37 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:38 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:39 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:39 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:42 INFO  compiling root (1 scala source)
+2023.12.17 23:13:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:13:43 INFO  time: compiled root in 1.19s
+2023.12.17 23:13:44 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:06 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:50 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:14:50 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:15:47 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:03 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:07 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:15 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:16 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:17 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:16 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:18 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:19 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala:49: error: [dialect scala3] illegal start of simple expression
+    case req @ POST -> Root / "tweets" =>
+    ^
+2023.12.17 23:16:19 INFO  compiling root (1 scala source)
+2023.12.17 23:16:19 INFO  time: compiled root in 0.9s
+2023.12.17 23:16:20 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:20 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:21 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:22 INFO  compiling root (1 scala source)
+2023.12.17 23:16:22 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:22 INFO  time: compiled root in 0.95s
+2023.12.17 23:16:23 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:34 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:36 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:38 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:39 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:46 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:46 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:46 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:46 INFO  compiling root (1 scala source)
+2023.12.17 23:16:46 INFO  time: compiled root in 0.95s
+2023.12.17 23:16:48 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:16:59 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:01 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:04 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:05 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:05 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:06 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:06 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:08 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:08 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:10 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:10 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:11 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:12 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:13 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:14 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:15 INFO  compiling root (1 scala source)
+2023.12.17 23:17:15 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.17 23:17:15 INFO  time: compiled root in 0.67s
+2023.12.17 23:18:03 INFO  compiling root (1 scala source)
+2023.12.17 23:18:03 INFO  time: compiled root in 0.71s
+2023.12.18 00:29:50 INFO  compiling root (1 scala source)
+2023.12.18 00:29:50 INFO  time: compiled root in 0.43s
+2023.12.18 00:29:54 INFO  compiling root (1 scala source)
+2023.12.18 00:29:54 INFO  time: compiled root in 0.31s
+2023.12.18 00:30:00 INFO  compiling root (1 scala source)
+2023.12.18 00:30:00 INFO  time: compiled root in 0.78s
+2023.12.21 09:48:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.24 11:49:07 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.24 11:49:07 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:09 INFO  time: compiled root in 1.46s
+2023.12.24 11:49:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.24 11:49:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.24 11:49:09 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/main.scala
+2023.12.24 11:49:14 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:14 INFO  time: compiled root in 0.8s
+2023.12.24 11:49:28 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:28 INFO  time: compiled root in 0.81s
+2023.12.24 11:49:30 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:31 INFO  time: compiled root in 1.13s
+2023.12.24 11:49:41 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:41 INFO  time: compiled root in 0.42s
+Dec 24, 2023 11:49:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5827
+2023.12.24 11:49:49 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/service/ItemService.scala:6: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `postItem` to method by adding `: Unit =`.
+  def postItem(item: Item)
+      ^
+2023.12.24 11:49:49 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:49 INFO  time: compiled root in 0.36s
+2023.12.24 11:49:49 INFO  compiling root (8 scala sources)
+2023.12.24 11:49:49 INFO  time: compiled root in 0.37s
+2023.12.24 11:50:04 INFO  compiling root (8 scala sources)
+2023.12.24 11:50:05 INFO  time: compiled root in 1s
+2023.12.24 11:50:23 INFO  compiling root (1 scala source)
+2023.12.24 11:50:23 INFO  time: compiled root in 79ms
+2023.12.24 11:51:19 INFO  compiling root (1 scala source)
+2023.12.24 11:51:19 INFO  time: compiled root in 0.1s
+2023.12.24 11:52:01 INFO  compiling root (1 scala source)
+2023.12.24 11:52:01 INFO  time: compiled root in 0.99s
+2023.12.24 11:52:41 INFO  compiling root (1 scala source)
+2023.12.24 11:52:41 INFO  time: compiled root in 0.76s
+2023.12.24 11:52:51 INFO  compiling root (1 scala source)
+2023.12.24 11:52:51 INFO  time: compiled root in 0.64s
+2023.12.24 11:52:58 INFO  compiling root (1 scala source)
+2023.12.24 11:52:58 INFO  time: compiled root in 85ms
+2023.12.24 12:06:22 INFO  compiling root (1 scala source)
+2023.12.24 12:06:22 INFO  time: compiled root in 0.2s
+2023.12.24 12:06:59 INFO  compiling root (1 scala source)
+2023.12.24 12:06:59 INFO  time: compiled root in 88ms
+2023.12.24 12:07:13 INFO  compiling root (1 scala source)
+2023.12.24 12:07:13 INFO  time: compiled root in 96ms
+2023.12.24 12:07:16 INFO  compiling root (1 scala source)
+2023.12.24 12:07:16 INFO  time: compiled root in 44ms
+Dec 24, 2023 12:07:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2023-12-24/r_compiler-error_(root)_12-07-32-841.md
+2023.12.24 12:07:48 INFO  compiling root (1 scala source)
+2023.12.24 12:07:48 INFO  time: compiled root in 63ms
+2023.12.24 12:08:02 INFO  compiling root (1 scala source)
+2023.12.24 12:08:10 INFO  Deduplicating compilation of root from bsp client 'Metals 1.2.0' (since 158h 13m 4.472s)
+2023.12.24 12:08:10 INFO  compiling root (1 scala source)
+2023.12.24 12:08:40 INFO  time: compiled root in 30s
+2023.12.24 12:08:40 WARN  Disconnecting from deduplication of ongoing compilation for 'root'
+No progress update for 30 seconds caused bloop to cancel compilation and schedule a new compile.
+                  
+2023.12.24 12:08:40 INFO  compiling root (1 scala source)
+2023.12.24 12:09:06 INFO  time: compiled root in 25s
+2023.12.24 12:10:37 INFO  Shutting down server
+2023.12.24 12:10:37 INFO  shutting down Metals
+2023.12.24 12:10:37 INFO  Shut down connection with build server.
+Dec 24, 2023 12:10:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:39)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:425)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:425)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:365)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:160)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:933)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1198)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1198)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1198)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.12.24 12:10:37 INFO  Cancelling compilation on Bloop server
+2023.12.24 12:10:37 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+2023.12.24 12:10:37 INFO  Cancelling compilation on Bloop server
+2023.12.24 12:10:37 INFO  Exiting server
+2024.01.11 20:33:41 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2024.01.11 20:33:42 INFO  Attempting to connect to the build server...
+2024.01.11 20:33:42 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.11 20:33:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.11 20:33:42 INFO  Attempting to connect to the build server...
+2024.01.11 20:33:42 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.11 20:33:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.11 20:33:42 INFO  time: Connected to build server in 0.96s
+2024.01.11 20:33:42 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.11 20:33:46 INFO  time: indexed workspace in 2.96s
+2024.01.11 20:33:47 INFO  running '/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s_/cbf5z2097m9cr1c2rrs_vw1h0000gn/T/metals3312187827305773299/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.01.11 20:33:49 INFO  [info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 17.0.6)
+2024.01.11 20:33:50 INFO  [info] loading global plugins from /Users/mxr/.sbt/1.0/plugins
+2024.01.11 20:33:52 INFO  [info] loading settings for project http4s-learn-build-build from metals.sbt ...
+2024.01.11 20:33:52 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project/project
+2024.01.11 20:33:52 INFO  [info] loading settings for project http4s-learn-build from metals.sbt ...
+2024.01.11 20:33:52 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project
+2024.01.11 20:33:53 INFO  [success] Generated .bloop/http4s-learn-build.json
+2024.01.11 20:33:53 INFO  [success] Total time: 1 s, completed Jan 11, 2024, 8:33:53 PM
+2024.01.11 20:33:53 INFO  [info] loading settings for project root from build.sbt ...
+2024.01.11 20:33:53 INFO  [info] set current project to http4s-learn (in build file:/Users/mxr/Documents/src/scala/http4s-learn/)
+2024.01.11 20:33:53 INFO  [success] Generated .bloop/root.json
+2024.01.11 20:33:53 INFO  [success] Generated .bloop/root-test.json
+2024.01.11 20:33:53 INFO  [success] Total time: 0 s, completed Jan 11, 2024, 8:33:54 PM
+2024.01.11 20:33:54 INFO  time: ran 'sbt bloopInstall' in 6.44s
+2024.01.11 20:33:54 INFO  Disconnecting from Bloop session...
+2024.01.11 20:33:54 INFO  Shut down connection with build server.
+2024.01.11 20:33:54 INFO  Shut down connection with build server.
+2024.01.11 20:33:54 INFO  Attempting to connect to the build server...
+2024.01.11 20:33:54 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.11 20:33:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.11 20:33:54 INFO  Attempting to connect to the build server...
+2024.01.11 20:33:54 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.11 20:33:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.11 20:33:54 INFO  time: Connected to build server in 58ms
+2024.01.11 20:33:54 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.11 20:33:55 INFO  time: indexed workspace in 1.22s
+2024.01.11 20:35:10 INFO  compiling root (14 scala sources)
+2024.01.11 20:35:13 INFO  time: compiled root in 3.18s
+Jan 11, 2024 8:38:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+2024.01.11 20:41:18 ERROR Failed to tokenize input for semantic tokens for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+scala.meta.tokenizers.TokenizeException: <input>:65: error: illegal character '\u3002'
+    MonadError[IllegalArgumentException]。
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Jan 11, 2024 8:41:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-11/r_compiler-error_(root)_20-41-37-184.md
+Jan 11, 2024 8:41:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-11/r_compiler-error_(root)_20-41-42-792.md
+2024.01.11 20:43:41 INFO  compiling root (1 scala source)
+2024.01.11 20:43:41 INFO  time: compiled root in 0.49s
+2024.01.11 20:43:47 INFO  compiling root (1 scala source)
+2024.01.11 20:43:47 INFO  time: compiled root in 0.54s
+2024.01.11 20:43:59 INFO  compiling root (1 scala source)
+2024.01.11 20:44:02 INFO  time: compiled root in 2.4s
+2024.01.11 20:46:04 INFO  compiling root (1 scala source)
+2024.01.11 20:46:07 INFO  time: compiled root in 2.6s
+2024.01.11 20:47:11 INFO  compiling root (1 scala source)
+2024.01.11 20:47:13 INFO  time: compiled root in 1.29s
+2024.01.11 20:47:22 INFO  compiling root (1 scala source)
+2024.01.11 20:47:22 INFO  time: compiled root in 0.96s
+2024.01.11 20:47:48 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala:69: error: [dialect scala3] ; expected but { found
+    } { _ => user.email == item.user }
+      ^
+2024.01.11 20:47:59 INFO  compiling root (1 scala source)
+2024.01.11 20:47:59 INFO  time: compiled root in 0.62s
+2024.01.11 20:48:13 INFO  compiling root (1 scala source)
+2024.01.11 20:48:13 INFO  time: compiled root in 0.47s
+2024.01.11 20:48:21 INFO  compiling root (1 scala source)
+2024.01.11 20:48:22 INFO  time: compiled root in 1.1s
+2024.01.11 20:48:33 INFO  compiling root (1 scala source)
+2024.01.11 20:48:33 INFO  time: compiled root in 0.49s
+2024.01.11 20:48:39 INFO  compiling root (1 scala source)
+2024.01.11 20:48:40 INFO  time: compiled root in 1s
+2024.01.11 20:48:59 INFO  compiling root (1 scala source)
+2024.01.11 20:49:00 INFO  time: compiled root in 1.03s
+2024.01.11 20:49:06 INFO  compiling root (1 scala source)
+2024.01.11 20:49:06 INFO  time: compiled root in 0.43s
+2024.01.11 20:49:22 INFO  compiling root (1 scala source)
+2024.01.11 20:49:22 INFO  time: compiled root in 0.76s
+2024.01.11 20:49:29 INFO  compiling root (1 scala source)
+2024.01.11 20:49:29 INFO  time: compiled root in 0.4s
+Jan 11, 2024 8:49:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1157
+2024.01.11 20:49:45 INFO  compiling root (1 scala source)
+2024.01.11 20:49:45 INFO  time: compiled root in 0.92s
+2024.01.11 20:49:50 INFO  compiling root (1 scala source)
+2024.01.11 20:49:50 INFO  time: compiled root in 0.94s
+2024.01.11 20:49:54 INFO  compiling root (1 scala source)
+2024.01.11 20:49:54 INFO  time: compiled root in 0.81s
+2024.01.11 20:50:06 INFO  compiling root (1 scala source)
+2024.01.11 20:50:06 INFO  time: compiled root in 0.94s
+2024.01.11 20:51:58 INFO  compiling root (1 scala source)
+2024.01.11 20:51:58 INFO  time: compiled root in 0.96s
+2024.01.11 20:52:03 INFO  compiling root (1 scala source)
+2024.01.11 20:52:03 INFO  time: compiled root in 0.55s
+2024.01.11 20:53:45 INFO  compiling root (1 scala source)
+2024.01.11 20:53:45 INFO  time: compiled root in 0.51s
+2024.01.11 20:53:57 INFO  compiling root (1 scala source)
+2024.01.11 20:53:59 INFO  time: compiled root in 2.74s
+2024.01.11 20:58:35 ERROR scalafmt: /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala:71: error: [dialect scala3] illegal start of simple expression
+  }
+  ^
+2024.01.11 20:58:35 INFO  compiling root (1 scala source)
+2024.01.11 20:58:35 INFO  time: compiled root in 0.48s
+2024.01.11 20:58:52 INFO  compiling root (1 scala source)
+2024.01.11 20:58:52 INFO  time: compiled root in 0.84s
+2024.01.11 20:59:02 INFO  compiling root (1 scala source)
+2024.01.11 20:59:02 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+2024.01.11 20:59:02 INFO  time: compiled root in 0.96s
+2024.01.11 20:59:12 INFO  compiling root (1 scala source)
+2024.01.11 20:59:12 INFO  time: compiled root in 0.73s
+2024.01.16 20:17:55 INFO  Shutting down server
+2024.01.16 20:17:55 INFO  shutting down Metals
+2024.01.16 20:17:55 INFO  Exiting server
+2024.01.23 19:25:24 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2024.01.29 20:27:19 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2024.01.29 20:27:20 INFO  Attempting to connect to the build server...
+2024.01.29 20:27:20 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+Jan 29, 2024 8:27:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.01.29 20:27:22 INFO  running '/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s_/cbf5z2097m9cr1c2rrs_vw1h0000gn/T/metals11269446294099093997/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.01.29 20:27:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:27:22 INFO  Attempting to connect to the build server...
+2024.01.29 20:27:22 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.29 20:27:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:27:22 INFO  time: Connected to build server in 2.54s
+2024.01.29 20:27:22 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.29 20:27:23 INFO  [info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 17.0.6)
+2024.01.29 20:27:24 INFO  [info] loading global plugins from /Users/mxr/.sbt/1.0/plugins
+2024.01.29 20:27:25 INFO  no build target found for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.29 20:27:24 INFO  [info] loading settings for project http4s-learn-build-build from metals.sbt ...
+2024.01.29 20:27:24 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project/project
+2024.01.29 20:27:24 INFO  [info] loading settings for project http4s-learn-build from metals.sbt ...
+2024.01.29 20:27:24 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project
+2024.01.29 20:27:26 INFO  [success] Generated .bloop/http4s-learn-build.json
+2024.01.29 20:27:26 INFO  [success] Total time: 1 s, completed Jan 29, 2024, 8:27:26 PM
+2024.01.29 20:27:26 INFO  [info] loading settings for project root from build.sbt ...
+2024.01.29 20:27:26 INFO  [info] set current project to http4s-learn (in build file:/Users/mxr/Documents/src/scala/http4s-learn/)
+2024.01.29 20:27:26 INFO  [success] Generated .bloop/root.json
+2024.01.29 20:27:26 INFO  [success] Generated .bloop/root-test.json
+2024.01.29 20:27:26 INFO  [success] Total time: 0 s, completed Jan 29, 2024, 8:27:26 PM
+2024.01.29 20:27:26 INFO  time: ran 'sbt bloopInstall' in 4.53s
+2024.01.29 20:27:26 INFO  Disconnecting from Bloop session...
+2024.01.29 20:27:26 INFO  Shut down connection with build server.
+2024.01.29 20:27:26 INFO  Shut down connection with build server.
+2024.01.29 20:27:26 INFO  Attempting to connect to the build server...
+2024.01.29 20:27:26 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.29 20:27:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:27:27 INFO  Attempting to connect to the build server...
+2024.01.29 20:27:27 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.29 20:27:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:27:27 INFO  time: Connected to build server in 53ms
+2024.01.29 20:27:27 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.29 20:27:27 INFO  time: indexed workspace in 1.94s
+2024.01.29 20:27:27 INFO  compiling root (15 scala sources)
+2024.01.29 20:27:28 INFO  time: indexed workspace in 1.11s
+Jan 29, 2024 8:27:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2024.01.29 20:27:45 INFO  time: compiled root in 17s
+2024.01.29 20:27:45 INFO  Deduplicating compilation of root from bsp client 'Metals 1.2.0' (since 18.528s)
+2024.01.29 20:27:45 INFO  compiling root (15 scala sources)
+2024.01.29 20:27:45 INFO  compiling root (15 scala sources)
+2024.01.29 20:28:00 INFO  time: compiled root in 14s
+2024.01.29 20:28:00 INFO  compiling root (15 scala sources)
+2024.01.29 20:28:14 INFO  time: compiled root in 14s
+java.lang.IndexOutOfBoundsException: 0 is out of bounds (min 0, max -1) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+Jan 29, 2024 8:28:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-28-33-659.md
+2024.01.29 20:28:33 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+2024.01.29 20:28:34 INFO  compiling root (15 scala sources)
+2024.01.29 20:28:49 INFO  time: compiled root in 14s
+2024.01.29 20:28:49 INFO  compiling root (15 scala sources)
+java.lang.AssertionError: assertion failed: denotation trait GenConcurrent invalid in run 1. ValidFor: Period(1..5, run = 5) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+Jan 29, 2024 8:29:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-29-00-411.md
+2024.01.29 20:29:00 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+exception caught when loading class Array$UnapplySeqWrapper: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class Tuple2$mcJJ$sp: java.lang.AssertionError: assertion failed: illegal flagset combination: private protected <deferred> mutable <java> <static> and <trait> interface <java> <noinits>
+exception caught when loading class Product$$anon$2: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class Function0$mcC$sp: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class Tuple2$mcZZ$sp: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class Function1$mcJJ$sp: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class Function0$mcB$sp: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+exception caught when loading class language$experimental$: java.lang.AssertionError: assertion failed: attempt to parse java.lang.Object from classfile
+Jan 29, 2024 8:29:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-29-00-484.md
+java.lang.AssertionError: assertion failed: denotation trait GenConcurrent invalid in run 1. ValidFor: Period(1..5, run = 3) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+Jan 29, 2024 8:29:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-29-02-621.md
+2024.01.29 20:29:02 WARN  Using indexes to guess the definition of ItemService
+2024.01.29 20:29:04 INFO  time: compiled root in 14s
+2024.01.29 20:29:04 INFO  compiling root (15 scala sources)
+2024.01.29 20:29:18 INFO  time: compiled root in 14s
+2024.01.29 20:29:24 INFO  compiling root (15 scala sources)
+java.lang.IndexOutOfBoundsException: 0 is out of bounds (min 0, max -1) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+Jan 29, 2024 8:29:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-29-30-342.md
+2024.01.29 20:29:30 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+exception caught when loading class Vector: java.lang.AssertionError: assertion failed: denotation class Child invalid in run 1. ValidFor: Period(1..5, run = 3)
+java.lang.AssertionError: assertion failed: denotation trait Http4sDsl invalid in run 3. ValidFor: Period(1..5, run = 4) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/middleware/AuthorizationMiddleware.scala
+Jan 29, 2024 8:29:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-29-30-401.md
+2024.01.29 20:29:30 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/middleware/AuthorizationMiddleware.scala
+2024.01.29 20:29:38 INFO  time: compiled root in 14s
+2024.01.29 20:29:41 INFO  compiling root (15 scala sources)
+2024.01.29 20:29:56 INFO  time: compiled root in 14s
+2024.01.29 20:29:56 INFO  compiling root (15 scala sources)
+2024.01.29 20:30:10 INFO  time: compiled root in 14s
+2024.01.29 20:30:41 INFO  compiling root (15 scala sources)
+2024.01.29 20:30:55 INFO  time: compiled root in 13s
+2024.01.29 20:30:55 INFO  compiling root (15 scala sources)
+2024.01.29 20:30:55 WARN  Using indexes to guess the definition of LatestItemListResponse
+2024.01.29 20:31:10 INFO  time: compiled root in 14s
+java.lang.AssertionError: assertion failed: denotation trait GenConcurrent invalid in run 1. ValidFor: Period(1..5, run = 5) while typechecking /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+Jan 29, 2024 8:31:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/http4s-learn/.metals/.reports/metals-full/2024-01-29/r_compiler-error_(root)_20-31-22-592.md
+2024.01.29 20:31:22 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/ItemRoutes.scala
+2024.01.29 20:31:47 INFO  compiling root (15 scala sources)
+2024.01.29 20:32:01 INFO  time: compiled root in 13s
+2024.01.29 20:32:28 INFO  compiling root (15 scala sources)
+2024.01.29 20:32:36 ERROR Failed to tokenize input for semantic tokens for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/model/request.scala
+scala.meta.tokenizers.TokenizeException: <input>:12: error: unclosed character literal
+    price: Float,''
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.01.29 20:32:42 INFO  time: compiled root in 13s
+2024.01.29 20:32:42 INFO  compiling root (15 scala sources)
+2024.01.29 20:32:56 INFO  time: compiled root in 14s
+2024.01.29 20:32:56 INFO  compiling root (15 scala sources)
+2024.01.29 20:33:11 INFO  time: compiled root in 14s
+2024.01.29 20:33:11 INFO  compiling root (15 scala sources)
+2024.01.29 20:33:24 INFO  Shutting down server
+2024.01.29 20:33:24 INFO  shutting down Metals
+2024.01.29 20:33:24 INFO  Shut down connection with build server.
+2024.01.29 20:33:24 INFO  Shut down connection with build server.
+Jan 29, 2024 8:33:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:39)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:425)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:425)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:365)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:157)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:149)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.01.29 20:33:24 INFO  Cancelling compilation on Bloop server
+2024.01.29 20:33:24 INFO  Exiting server
+2024.01.29 20:33:38 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2024.01.29 20:33:38 INFO  Attempting to connect to the build server...
+2024.01.29 20:33:38 INFO  skipping build import with status 'Installed'
+2024.01.29 20:33:38 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.29 20:33:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:33:38 INFO  Attempting to connect to the build server...
+2024.01.29 20:33:38 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.01.29 20:33:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.29 20:33:39 INFO  time: Connected to build server in 0.73s
+2024.01.29 20:33:39 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.29 20:33:40 INFO  no build target found for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/model/request.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.29 20:33:41 INFO  no build target found for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/model/request.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.29 20:33:42 INFO  time: indexed workspace in 1.82s
+2024.01.29 20:33:42 INFO  compiling root (15 scala sources)
+2024.01.29 20:33:43 WARN  Using indexes to guess the definition of ItemCategory
+2024.01.29 20:33:43 WARN  Using indexes to guess the definition of ItemCategory
+2024.01.29 20:33:55 INFO  Deduplicating compilation of root from bsp client 'Metals 1.2.0' (since 16.135s)
+2024.01.29 20:33:55 INFO  compiling root (15 scala sources)
+2024.01.29 20:33:57 INFO  time: compiled root in 1.96s
+2024.01.29 20:33:57 INFO  compiling root (15 scala sources)
+2024.01.29 20:34:11 INFO  time: compiled root in 13s
+2024.01.29 20:34:11 INFO  compiling root (15 scala sources)
+2024.01.29 20:34:25 INFO  time: compiled root in 14s
+2024.01.29 20:34:25 INFO  compiling root (15 scala sources)
+2024.01.29 20:34:40 INFO  time: compiled root in 14s
+2024.01.29 20:34:40 INFO  compiling root (15 scala sources)
+2024.01.29 20:34:48 INFO  Shutting down server
+2024.01.29 20:34:48 INFO  shutting down Metals
+2024.01.29 20:34:48 INFO  Shut down connection with build server.
+2024.01.29 20:34:48 INFO  Shut down connection with build server.
+Jan 29, 2024 8:34:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:39)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:425)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:425)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:365)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:157)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:149)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2024.01.29 20:34:48 INFO  Cancelling compilation on Bloop server
+2024.01.29 20:34:48 INFO  Exiting server
+2024.02.05 00:49:05 INFO  Started: Metals version 1.2.0 in folders '/Users/mxr/Documents/src/scala/http4s-learn' for client Visual Studio Code 1.76.2.
+2024.02.05 00:49:05 INFO  Attempting to connect to the build server...
+2024.02.05 00:49:05 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.02.05 00:49:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.05 00:49:06 INFO  Attempting to connect to the build server...
+2024.02.05 00:49:06 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.02.05 00:49:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.05 00:49:06 INFO  time: Connected to build server in 0.88s
+2024.02.05 00:49:06 INFO  Connected to Build server: Bloop v1.5.13
+2024.02.05 00:49:07 INFO  running '/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s_/cbf5z2097m9cr1c2rrs_vw1h0000gn/T/metals8725969341732916074/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.02.05 00:49:08 INFO  [info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 17.0.6)
+2024.02.05 00:49:09 INFO  [info] loading global plugins from /Users/mxr/.sbt/1.0/plugins
+2024.02.05 00:49:10 INFO  no build target found for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/ItemService.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.05 00:49:11 INFO  [info] loading settings for project http4s-learn-build-build-build from metals.sbt ...
+2024.02.05 00:49:11 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project/project/project
+2024.02.05 00:49:11 INFO  [info] loading settings for project http4s-learn-build-build from metals.sbt ...
+2024.02.05 00:49:11 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project/project
+2024.02.05 00:49:12 INFO  time: indexed workspace in 1.83s
+2024.02.05 00:49:12 INFO  compiling root (19 scala sources)
+2024.02.05 00:49:13 INFO  [success] Generated .bloop/http4s-learn-build-build.json
+2024.02.05 00:49:13 INFO  [success] Total time: 1 s, completed Feb 5, 2024, 12:49:13 AM
+2024.02.05 00:49:13 INFO  [info] loading settings for project http4s-learn-build from metals.sbt,plugin.sbt ...
+2024.02.05 00:49:13 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/http4s-learn/project
+2024.02.05 00:49:13 INFO  [success] Generated .bloop/http4s-learn-build.json
+2024.02.05 00:49:14 INFO  [success] Total time: 0 s, completed Feb 5, 2024, 12:49:14 AM
+2024.02.05 00:49:14 INFO  [info] loading settings for project root from build.sbt ...
+2024.02.05 00:49:14 INFO  [info] set current project to http4s-learn (in build file:/Users/mxr/Documents/src/scala/http4s-learn/)
+2024.02.05 00:49:15 INFO  [success] Generated .bloop/root.json
+2024.02.05 00:49:15 INFO  [success] Generated .bloop/root-test.json
+2024.02.05 00:49:15 INFO  [success] Total time: 0 s, completed Feb 5, 2024, 12:49:15 AM
+2024.02.05 00:49:15 INFO  time: ran 'sbt bloopInstall' in 7.56s
+2024.02.05 00:49:15 INFO  Disconnecting from Bloop session...
+2024.02.05 00:49:15 INFO  Cancelling compilation on Bloop server
+2024.02.05 00:49:15 INFO  Shut down connection with build server.
+2024.02.05 00:49:17 ERROR timeout: build server 'bloop' during shutdown
+2024.02.05 00:49:17 INFO  Attempting to connect to the build server...
+2024.02.05 00:49:17 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.02.05 00:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.05 00:49:17 INFO  Attempting to connect to the build server...
+2024.02.05 00:49:17 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.02.05 00:49:17 INFO  Attempting to connect to the build server...
+2024.02.05 00:49:17 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2024.02.05 00:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.05 00:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/http4s-learn/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.05 00:49:17 INFO  time: Connected to build server in 42ms
+2024.02.05 00:49:17 INFO  Connected to Build server: Bloop v1.5.13
+2024.02.05 00:49:18 INFO  time: indexed workspace in 1.05s
+2024.02.05 00:49:18 INFO  compiling root (19 scala sources)
+2024.02.05 00:49:20 INFO  Deduplicating compilation of root from bsp client 'Metals 1.2.0' (since 3.034s)
+2024.02.05 00:49:20 INFO  compiling root (19 scala sources)
+2024.02.05 00:49:20 INFO  time: compiled root in 0.7s
+2024.02.05 00:49:22 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:49:26 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:19 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:19 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:23 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:23 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:25 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:29 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:30 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:33 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:35 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:40 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:42 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:45 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:45 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:45 WARN  Using indexes to guess the definition of RequestAuthenticationError
+2024.02.05 00:50:45 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:45 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:45 INFO  compiling root (19 scala sources)
+2024.02.05 00:50:45 WARN  Using indexes to guess the definition of RequestAuthenticationError
+2024.02.05 00:50:48 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:49 INFO  time: compiled root in 3.48s
+2024.02.05 00:50:49 INFO  compiling root (19 scala sources)
+2024.02.05 00:50:49 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:50 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:51 INFO  time: compiled root in 2.36s
+2024.02.05 00:50:52 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:54 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:56 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:57 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:58 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:50:58 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:51:00 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:51:01 INFO  compiling root (19 scala sources)
+2024.02.05 00:51:01 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:51:04 INFO  time: compiled root in 2.35s
+2024.02.05 00:51:04 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/service/UserService.scala
+2024.02.05 00:51:11 INFO  compiling root (19 scala sources)
+2024.02.05 00:51:12 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:12 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:14 INFO  time: compiled root in 2.74s
+2024.02.05 00:51:14 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:41 WARN  Could not load snapshot text for /Users/mxr/Documents/src/scala/http4s-learn/src/main/scala/org/mxr/shop/route/UserRoutes.scala
+2024.02.05 00:51:46 INFO  Shutting down server
+2024.02.05 00:51:46 INFO  shutting down Metals
+2024.02.05 00:51:46 INFO  Shut down connection with build server.
+2024.02.05 00:51:46 INFO  Shut down connection with build server.
+2024.02.05 00:51:46 INFO  Shut down connection with build server.
+2024.02.05 00:51:46 INFO  Exiting server

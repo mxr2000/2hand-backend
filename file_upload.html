@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload Demo</title>
+</head>
+<body>
+<h2>File Upload Demo</h2>
+<form id="uploadForm">
+    <label for="file">Choose file to upload:</label>
+    <input type="file" id="file" name="file"><br><br>
+    <input type="submit" value="Upload">
+</form>
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+        fetch('http://localhost:8080/image', {
+            method: 'POST',
+            headers: {
+                'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE4NjQzMjY5NzQsImlhdCI6MTcwNjU0MjIxNCwKICAiZW1haWwiIDogImFAZ2FtaWwuY29tIiwKICAiZmlyc3ROYW1lIiA6ICJEaWNrIiwKICAibGFzdE5hbWUiIDogIkR1Y2siLAogICJwYXNzd29yZEhhc2giIDogIiIKfQ.muDB4pvQBMDl8qB05aSuXtrF02BK6j9L6PXddGtD27o'
+            },
+            body: formData
+        }).then(response => response.text())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+POST {{host}}/user/logIn
+Content-Type: application/json
+
+{
+  "email": "a@gmail.com",
+  "passwordHash": "abcde"
+}
+
+###
+
+POST {{host}}/user/contact
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "email": "a@gmail.com",
+  "content": "wechat: mxr----",
+  "id": 0
+}
+
+###
+
+PUT {{host}}/user/contact
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "email": "a@gmail.com",
+  "firstName": "Paul",
+  "lastName": "Jack",
+  "imageLink": "empty"
+}
+
+###
+DELETE {{host}}/user/contact/1
+Authorization: Bearer {{token}}

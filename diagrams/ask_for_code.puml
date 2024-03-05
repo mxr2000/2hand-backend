@@ -1,0 +1,13 @@
+@startuml
+(*) --> "Look up email address
+in the user table"
+if "Email already exists" then
+-->[true] "fail"
+-right-> (*)
+else
+-->[false] "generate a random code"
+--> "Save the code in Redis"
+--> "Send email"
+-->(*)
+endif
+@enduml
